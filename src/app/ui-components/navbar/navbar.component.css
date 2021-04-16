@@ -1,0 +1,21 @@
+.container-fluid>a{
+    padding: 0.5em;
+    border: 3px dotted transparent;
+    border-radius: 0.6em;
+    transition: border-top 0.5s, border-right 1s, border-bottom 1.5s, border-left 2s;
+}
+.container-fluid>a:hover{
+    border: 3px dotted rgb(71, 255, 47);
+}
+.nav-link{
+    padding: 1em;
+    border-bottom: 2px solid transparent;
+    transition: padding 0.5s, border-bottom 0.5s;
+}
+.nav-link:hover{
+    padding: 1em;
+    border-bottom: 3px solid white;
+}
+.navbar-brand{
+    font-family: 'Orbitron', sans-serif;
+}

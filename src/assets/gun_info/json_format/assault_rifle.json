@@ -1,0 +1,92 @@
+[
+  {
+    "name": "akm",
+    "display_name": "AKM",
+    "power": "48",
+    "rate_of_fire": "61",
+    "range": "60",
+    "capacity": "30",
+    "stability": "61"
+  },
+  {
+    "name": "scar_l",
+    "display_name": "SCAR-L",
+    "power": "41",
+    "rate_of_fire": "69",
+    "range": "55",
+    "capacity": "30",
+    "stability": "63"
+  },
+  {
+    "name": "m16a4",
+    "display_name": "M16A4",
+    "power": "41",
+    "rate_of_fire": "15",
+    "range": "63",
+    "capacity": "30",
+    "stability": "61"
+  },
+  {
+    "name": "m416",
+    "display_name": "M416",
+    "power": "41",
+    "rate_of_fire": "75",
+    "range": "56",
+    "capacity": "30",
+    "stability": "63"
+  },
+  {
+    "name": "qbz",
+    "display_name": "QBZ",
+    "power": "41",
+    "rate_of_fire": "56",
+    "range": "56",
+    "capacity": "30",
+    "stability": "63"
+  },
+  {
+    "name": "mk47_mutant",
+    "display_name": "Mk14 Mutant",
+    "power": "48",
+    "rate_of_fire": "50",
+    "range": "63",
+    "capacity": "20",
+    "stability": "58"
+  },
+  {
+    "name": "aug",
+    "display_name": "AUG A3",
+    "power": "41",
+    "rate_of_fire": "58",
+    "range": "56",
+    "capacity": "30",
+    "stability": "64"
+  },
+  {
+    "name": "g36c",
+    "display_name": "G36C",
+    "power": "41",
+    "rate_of_fire": "56",
+    "range": "55",
+    "capacity": "30",
+    "stability": "64"
+  },
+  {
+    "name": "m762",
+    "display_name": "M762",
+    "power": "46",
+    "rate_of_fire": "66",
+    "range": "60",
+    "capacity": "30",
+    "stability": "61"
+  },
+  {
+    "name": "groza",
+    "display_name": "Groza",
+    "power": "45",
+    "rate_of_fire": "67",
+    "range": "60",
+    "capacity": "30",
+    "stability": "63"
+  }
+]

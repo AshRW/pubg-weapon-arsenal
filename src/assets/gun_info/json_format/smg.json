@@ -1,0 +1,65 @@
+[
+  {
+      "name": "ump45",
+      "display_name": "UMP45",
+      "power": "38",
+      "rate_of_fire": "65",
+      "range": "30",
+      "capacity": "57",
+      "stability": "50"
+  },
+  {
+      "name": "p90",
+      "display_name": "P90",
+      "power": "30",
+      "rate_of_fire": "70",
+      "range": "25",
+      "capacity": "50",
+      "stability": "58"
+  },
+  {
+      "name": "thompson_smg",
+      "display_name": "Thompson SMG",
+      "power": "40",
+      "rate_of_fire": "60",
+      "range": "38",
+      "capacity": "30",
+      "stability": "48"
+  },
+  {
+      "name": "pp_19_bizon",
+      "display_name": "PP-19  Bizon",
+      "power": "35",
+      "rate_of_fire": "76",
+      "range": "33",
+      "capacity": "52",
+      "stability": "58"
+  },
+  {
+      "name": "vector",
+      "display_name": "Vector",
+      "power": "31",
+      "rate_of_fire": "56",
+      "range": "20",
+      "capacity": "19",
+      "stability": "68"
+  },
+  {
+      "name": "uzi",
+      "display_name": "UZI",
+      "power": "25",
+      "rate_of_fire": "71",
+      "range": "22",
+      "capacity": "25",
+      "stability": "67"
+  },
+  {
+      "name": "mp5k",
+      "display_name": "MP5K",
+      "power": "33",
+      "rate_of_fire": "55",
+      "range": "30",
+      "capacity": "52",
+      "stability": "50"
+  }
+]

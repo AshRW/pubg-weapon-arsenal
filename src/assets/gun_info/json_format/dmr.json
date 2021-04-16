@@ -1,0 +1,38 @@
+[
+  {
+      "name": "mini14",
+      "display_name": "Mini14",
+      "power": "46",
+      "rate_of_fire": "43",
+      "range": "63",
+      "capacity": "20",
+      "stability": "60"
+  },
+  {
+      "name": "qbu",
+      "display_name": "QBU",
+      "power": "55",
+      "rate_of_fire": "30",
+      "range": "63",
+      "capacity": "10",
+      "stability": "60"
+  },
+  {
+      "name": "slr",
+      "display_name": "SLR",
+      "power": "58",
+      "rate_of_fire": "26",
+      "range": "64",
+      "capacity": "10",
+      "stability": "40"
+  },
+  {
+      "name": "sks",
+      "display_name": "SKS",
+      "power": "52",
+      "rate_of_fire": "32",
+      "range": "64",
+      "capacity": "10",
+      "stability": "44"
+  }
+]

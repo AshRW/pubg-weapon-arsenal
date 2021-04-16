@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="row align-items-center">
+        <div class="col">
+          <!-- Test Starts here -->
+          <div class="row" style="align-items: center;">
+            <div class="col">
+              <!-- Drop Down Starts Here -->
+            <div class="dropdown">
+              <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Select Weapon Type
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" (click)='getAR()'>Assault Rifle</a></li>
+                <li><a class="dropdown-item" (click)='getSMG()'>SMG</a></li>
+                <li><a class="dropdown-item" (click)='getDMR()'>DMR</a></li>
+                <li><a class="dropdown-item" (click)='getSniper()'>Bolt Action Rifle</a></li>
+                <li><a class="dropdown-item" (click)='getShot()'>Shotgun</a></li>
+                <li><a class="dropdown-item" (click)='getLMG()'>LMG</a></li>
+              </ul>
+            </div>    
+            <div class="dropdown">
+              <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Select Weapon
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+                <!-- <li><a class="dropdown-item disabled">Select Weapon Type First</a></li> -->
+                <li *ngFor="let w of selected_weapon_type; let i=index;"><a class="dropdown-item" (click)="selected(i)">{{w.display_name}}</a></li>
+              </ul>
+            </div>
+          <!-- Drop Down Ends Here -->
+            </div>
+            <div class="col">
+              <div class="text-title">Weapon Type: {{display_weapon_type}}</div>
+              <div>{{display_weapon_type}}: {{selected_weapon?.display_name}}</div>
+            </div>
+          </div>
+          <!-- Test Ends here -->
+            
+        </div>
+        <div class="col">
+            <!-- Table Starts Here -->
+            <div class="table-responsive">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Capacity</th>
+                    <th scope="col">Power</th>
+                    <th scope="col">Range</th>
+                    <th scope="col">Rate of Fire</th>
+                    <th scope="col">Stability</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{{selected_weapon?.capacity}}</td>
+                    <td>{{selected_weapon?.power}}</td>
+                    <td>{{selected_weapon?.range}}</td>
+                    <td>{{selected_weapon?.rate_of_fire}}</td>
+                    <td>{{selected_weapon?.stability}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Table Ends Here -->
+        </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+</div>

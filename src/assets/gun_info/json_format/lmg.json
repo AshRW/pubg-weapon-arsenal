@@ -1,0 +1,20 @@
+[
+  {
+      "name": "dp_28",
+      "display_name": "DP-28",
+      "power": "48",
+      "rate_of_fire": "42",
+      "range": "35",
+      "capacity": "47",
+      "stability": "67"
+  },
+  {
+      "name": "m249",
+      "display_name": "M249",
+      "power": "45",
+      "rate_of_fire": "76",
+      "range": "35",
+      "capacity": "100",
+      "stability": "34"
+  }
+]

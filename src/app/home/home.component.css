@@ -1,0 +1,27 @@
+/* .container{
+    border: 2px solid red;
+} */
+.row{
+    border: 1px solid rgb(0, 47, 255);  
+    padding: 0.5em;
+}
+.col{
+    /* border: 2px solid rgb(238, 255, 0); */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dropdown{
+    /* border: 2px solid red; */
+    padding: 1em;
+}
+.text-title{
+    font-size: 1.3em;
+}
+
+/* .table{
+    width: 10%;
+}
+table{
+    width: 10%;
+} */

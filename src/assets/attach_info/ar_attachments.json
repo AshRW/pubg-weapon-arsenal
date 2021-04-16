@@ -1,0 +1,375 @@
+{
+  "m416":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":16,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":2, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "stock":
+    {
+      "Tactical_Stock":{"name":"Tactical Stock", "stability":10, "affects":["stability"]},
+      "available":["Tactical_Stock"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":5, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":7, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":12, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":13, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":13, "range":5, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":11, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":13, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":10, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "stock", "mag", "foregrip"]
+  },
+
+  "akm":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":16,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":4, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":6, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":9, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "available":["muzzle", "sight", "mag"]
+  },
+
+  "scar_l":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":16,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":3, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":4, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":6, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":11, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":13, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":13, "range":5, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":11, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":13, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":10, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "mag", "foregrip"]
+  },
+
+  "m16a4":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":16,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "stock":
+    {
+      "Tactical_Stock":{"name":"Tactical Stock", "stability":10, "affects":["stability"]},
+      "available":["Tactical_Stock"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":1, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":1, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":2, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "available":["muzzle", "sight", "stock", "mag"]
+  },
+
+  "qbz":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":16,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":2, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":3, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":5, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":8, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":13, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":13, "range":5, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":11, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":13, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":10, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "mag", "foregrip"]
+  },
+
+  "mk47_mutant":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":11,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":15,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "stock":
+    {
+      "Tactical_Stock":{"name":"Tactical Stock", "stability":9, "affects":["stability"]},
+      "available":["Tactical_Stock"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":3, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":5, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":8, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":12, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":12, "range":6, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":10, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":12, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":9, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "stock", "mag", "foregrip"]
+  },
+
+  "aug_a3":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":17,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":2, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":4, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":5, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":9, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":14, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":14, "range":5, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":11, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":13, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":10, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "mag", "foregrip"]
+  },
+
+  "g36c":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":17,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":3, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":3, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":5, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":8, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":14, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":14, "range":5, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":11, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":13, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":10, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "mag", "foregrip"]
+  },
+
+  "m762":
+  {
+    "muzzle":
+    {
+      "Flash_Hider":{"name":"Flash Hider","stability":12,"affects":["stability"]},
+      "Compensator":{"name":"Compensator","stability":16,"affects":["stability"]},
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Flash_Hider", "Compensator", "Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":4, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":6, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":10, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "foregrip":
+    {
+      "Verticle_Foregrip":{"name":"Verticle Foregrip", "stability":13, "affects":["stability"]},
+      "Laser_Sight":{"name":"Laser Sight", "stability":13, "range":6, "affects":["stability", "range"]},
+      "Angled_Foregrip":{"name":"Angled Foregrip", "stability":11, "affects":["stability"]},
+      "Light_Grip":{"name":"Light Grip", "stability":13, "affects":["stability"]},
+      "Half_Grip":{"name":"Half Grip", "stability":7, "affects":["stability"]},
+      "Thumb_Grip":{"name":"Thumb Grip", "stability":10, "affects":["stability"]},
+      "available":["Verticle_Foregrip","Laser_Sight","Angled_Foregrip","Light_Grip","Half_Grip","Thumb_Grip"]
+    },
+    "available":["muzzle", "sight", "mag", "foregrip"]
+  },
+
+  "groza":
+  {
+    "muzzle":
+    {
+      "Suppressor":{"name":"Suppressor", "affects":[]},
+      "available":["Suppressor"]
+    },
+    "sight":
+    {
+      "Holographic_Sight":{"name":"Holographic Sight", "range":1, "affects":["range"]},
+      "Red_Dot_Sight":{"name":"Red Dot Sight", "range":1, "affects":["range"]},
+      "2x_Scope":{"name":"2x Scope", "range":2, "affects":["range"]},
+      "4x_Scope":{"name":"4x Scope", "range":4, "affects":["range"]},
+      "3x_Scope":{"name":"3x Scope", "range":3, "affects":["range"]},
+      "6x_Scope":{"name":"6x Scope", "range":6, "affects":["range"]},
+      "available":["Holographic_Sight", "Red_Dot_Sight", "2x_Scope", "4x_Scope", "3x_Scope", "6x_Scope"]
+    },
+    "mag":
+    {
+      "Extended_Mag":{"name":"Extended Mag", "capacity":10, "rate_of_fire":4, "affects":["capacity", "rate_of_fire"]},
+      "Quickdraw_Mag":{"name":"Quickdraw Mag", "rate_of_fire":6, "affects":["rate_of_fire"]},
+      "Extended_Quickdraw_Mag":{"name":"Extended Quickdraw Mag", "capacity":10, "rate_of_fire":10, "affects":["capacity", "rate_of_fire"]},
+      "available":["Extended_Mag", "Quickdraw_Mag", "Extended_Quickdraw_Mag"]
+    },
+    "available":["muzzle", "sight", "mag"]
+  }
+
+}

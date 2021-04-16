@@ -1,0 +1,29 @@
+[
+  {
+      "name": "s686",
+      "display_name": "S686",
+      "power": "95",
+      "rate_of_fire": "7",
+      "range": "13",
+      "capacity": "2",
+      "stability": "11"
+  },
+  {
+      "name": "s1897",
+      "display_name": "S1897",
+      "power": "95",
+      "rate_of_fire": "8",
+      "range": "5",
+      "capacity": "11",
+      "stability": "10"
+  },
+  {
+      "name": "s12k",
+      "display_name": "S12K",
+      "power": "90",
+      "rate_of_fire": "14",
+      "range": "9",
+      "capacity": "5",
+      "stability": "6"
+  }
+]

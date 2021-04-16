@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/pubg-weapon-arsenal/",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+[
+        {
+            "name": "win94",
+            "display_name": "Win94",
+            "power": "66",
+            "rate_of_fire": "11",
+            "range": "79",
+            "capacity": "8",
+            "stability": "30"
+        },
+        {
+            "name": "kar98k",
+            "display_name": "Kar98K",
+            "power": "75",
+            "rate_of_fire": "4",
+            "range": "79",
+            "capacity": "5",
+            "stability": "68"
+        },
+        {
+            "name": "m24",
+            "display_name": "M24",
+            "power": "79",
+            "rate_of_fire": "5",
+            "range": "86",
+            "capacity": "5",
+            "stability": "62"
+        }
+    ]
