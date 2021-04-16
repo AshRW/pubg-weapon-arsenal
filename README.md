@@ -1,3 +1,7 @@
+# Note
+
+You are freee to use my weapons data Json files. I know how hard it is to find a up to date database of the weapons!
+
 # PubgWeaponArsenal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
